@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="dimmer-banner.svg" alt="Dimmer — something good is on." width="680">
+  <img src="dimmer-banner.svg" alt="Dimmer - something good is on." width="680">
 </p>
 
-> Something good is on.
-
-Dimmer is a film and TV discovery app for Android, built for the end-of-day couch moment. Browse popular films, search by title, filter by genre or streaming service, and see exactly where to watch — all tuned to your region.
+Dimmer is a film and TV discovery app for Android, built for the end-of-day couch moment. Browse popular films, search by title, filter by genre or streaming service, and see exactly where to watch in Portugal.
 
 ---
 
