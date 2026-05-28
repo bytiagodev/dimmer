@@ -4,13 +4,15 @@ ADDED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManif
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml:2:1-27:12
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\2f1932cdd781c44fc6d39fe9aa4a034b\transformed\coil-compose-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a4b79b4ea8dfc9fc2348d0a34bb8e6e8\transformed\material3\AndroidManifest.xml:17:1-22:12
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\54860959a258a53913a0078cfb793e57\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f794c526768364ea72d19212de4808eb\transformed\material\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\61ec2197e8bee335161beb2be56af506\transformed\material-ripple\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.animation:animation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\68993825e49338c6a22c827bc4f92729\transformed\animation\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4128f6b6ea25634030adc669a6ef865\transformed\foundation-layout\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\657d6021909c0bda34f5b935b3c3439e\transformed\ui-tooling-data\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-unit-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\01fd0d1d6513f1381902916da987d25e\transformed\ui-unit\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-geometry-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e96d295a233610faaaeed3730cde3902\transformed\ui-geometry\AndroidManifest.xml:2:1-7:12
@@ -19,46 +21,54 @@ MERGED from [androidx.compose.ui:ui-text-android:1.10.4] C:\Users\tiago\.gradle\
 MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\87aa8d0b309ea75ddc7adc01cb666b79\transformed\ui-tooling-preview\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b9bb7188714f905b07a59da53add0c85\transformed\ui-graphics\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\ef4ea8910675d397407277ab28f407cd\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9e22df37b3376c1dfd6cf4dede8a9ff8\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\621addf00726c1d48a10b572ba4532a7\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0fd57ec78e7485fff24c59413e9e8857\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:17:1-29:12
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\696afd924f938d93abb2f6d610bf9801\transformed\runtime-annotation\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\5998878bec64db76338b1047f0020af9\transformed\runtime-retain\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a88462530c5eee44eb646aa67ec14b61\transformed\coil-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8569369b223ea3010c6aa53acbe36195\transformed\coil-base-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1dcad6f69c222c3ec88c51ca215bed5f\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.6.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\2273c3909e641695b2febe8404e916db\transformed\transition-1.6.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-core-android:1.5.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b2d3d44812800bda1b86b8e349300844\transformed\window-core\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.5.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\156de599344a69fceea1b1aa8033fe21\transformed\window-1.5.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0a88a88746d564f5cf839e7e72824563\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\77894c80649c2807f39b3a256533adae\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\aaa84d6922f2bf1f18a774dd8d20ffc2\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b198d056d8f3cc11ace66a47d76159b7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\23ce858cb449e64d4351a4abf43b09d2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1e345c8a973a7814db4e6feeb4e97d5c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8e4480503828c44c14b792d0d445cc03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a632aa9d550a852bff0710b79f041a1e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\dbd35e0c8c2e58dcee541256babdebdf\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\37d056e7128335a1a3053c6f28f41af3\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\485c2d7014c1f40d020f25de81b191dc\transformed\lifecycle-livedata-2.9.4\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\3b9b6531bc50fce2955dbd55c91a0178\transformed\lifecycle-viewmodel-2.9.4\AndroidManifest.xml:2:1-5:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\081658e96b0d6014f443194612e3c464\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d23e16226c5d6dd85341e97a87fec057\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\6b4c7c19056e8aefd9004badeb5476b4\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate-android:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1fbac66d5dabb496e135dbd36df9f4e5\transformed\savedstate-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\208c71a32422aeb3478ad84c2a9a29d2\transformed\savedstate-ktx-1.3.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d92fad97997fc6a45e735e9d35df7c91\transformed\savedstate-compose\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\7921c09f8401cc7718ea2f538e7a8e90\transformed\runtime\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c767b07bec908f830408d51eb99f19a1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\93d50bed6084dad94d27c60f7f9a92db\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8b77d2c2043d5a0e3ebe101fd19ffaa2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\beb4fc0bc2e7fa15a03c04987fd03652\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a8c786a686dec41110afdfc5778ade59\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b2f1d6e8bedaf745aca9503181cbe99d\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0ba7d5b23e3519dd79696f5fa60f60e1\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1637fc9ab877d23ad92f594ee23b7872\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\7247ed32b85f0070094ae4e3cc44a94a\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -81,8 +91,6 @@ ADDED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManif
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:22:5-27:19
-MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:22:5-27:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.5.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\156de599344a69fceea1b1aa8033fe21\transformed\window-1.5.0\AndroidManifest.xml:22:5-29:19
@@ -91,6 +99,8 @@ MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\tran
 MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:22:5-27:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8b77d2c2043d5a0e3ebe101fd19ffaa2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8b77d2c2043d5a0e3ebe101fd19ffaa2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a8c786a686dec41110afdfc5778ade59\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
@@ -141,20 +151,24 @@ uses-sdk
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\tiago\AndroidStudioProjects\Dimmer\app\src\main\AndroidManifest.xml
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\2f1932cdd781c44fc6d39fe9aa4a034b\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\2f1932cdd781c44fc6d39fe9aa4a034b\transformed\coil-compose-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3-android:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a4b79b4ea8dfc9fc2348d0a34bb8e6e8\transformed\material3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3-android:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a4b79b4ea8dfc9fc2348d0a34bb8e6e8\transformed\material3\AndroidManifest.xml:20:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\54860959a258a53913a0078cfb793e57\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\54860959a258a53913a0078cfb793e57\transformed\coil-compose-base-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f794c526768364ea72d19212de4808eb\transformed\material\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f794c526768364ea72d19212de4808eb\transformed\material\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\61ec2197e8bee335161beb2be56af506\transformed\material-ripple\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material:material-ripple-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\61ec2197e8bee335161beb2be56af506\transformed\material-ripple\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\68993825e49338c6a22c827bc4f92729\transformed\animation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.animation:animation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\68993825e49338c6a22c827bc4f92729\transformed\animation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4128f6b6ea25634030adc669a6ef865\transformed\foundation-layout\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.foundation:foundation-layout-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4128f6b6ea25634030adc669a6ef865\transformed\foundation-layout\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.animation:animation-core-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\e255746b0fcf2354af80271719731d94\transformed\animation-core\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\35feb0bd480dca7b86e012106f1125dc\transformed\foundation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\657d6021909c0bda34f5b935b3c3439e\transformed\ui-tooling-data\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-tooling-data-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\657d6021909c0bda34f5b935b3c3439e\transformed\ui-tooling-data\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-unit-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\01fd0d1d6513f1381902916da987d25e\transformed\ui-unit\AndroidManifest.xml:5:5-44
@@ -171,26 +185,24 @@ MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.grad
 MERGED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b9bb7188714f905b07a59da53add0c85\transformed\ui-graphics\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.ui:ui-graphics-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b9bb7188714f905b07a59da53add0c85\transformed\ui-graphics\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\ef4ea8910675d397407277ab28f407cd\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\ef4ea8910675d397407277ab28f407cd\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9e22df37b3376c1dfd6cf4dede8a9ff8\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9e22df37b3376c1dfd6cf4dede8a9ff8\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\621addf00726c1d48a10b572ba4532a7\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\621addf00726c1d48a10b572ba4532a7\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0fd57ec78e7485fff24c59413e9e8857\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0fd57ec78e7485fff24c59413e9e8857\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\696afd924f938d93abb2f6d610bf9801\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-annotation-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\696afd924f938d93abb2f6d610bf9801\transformed\runtime-annotation\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\5998878bec64db76338b1047f0020af9\transformed\runtime-retain\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-retain-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\5998878bec64db76338b1047f0020af9\transformed\runtime-retain\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
-MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a88462530c5eee44eb646aa67ec14b61\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a88462530c5eee44eb646aa67ec14b61\transformed\coil-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8569369b223ea3010c6aa53acbe36195\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.7.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8569369b223ea3010c6aa53acbe36195\transformed\coil-base-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1dcad6f69c222c3ec88c51ca215bed5f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1dcad6f69c222c3ec88c51ca215bed5f\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.6.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\2273c3909e641695b2febe8404e916db\transformed\transition-1.6.0\AndroidManifest.xml:5:5-44
@@ -201,14 +213,24 @@ MERGED from [androidx.window:window:1.5.0] C:\Users\tiago\.gradle\caches\9.4.1\t
 MERGED from [androidx.window:window:1.5.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\156de599344a69fceea1b1aa8033fe21\transformed\window-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0a88a88746d564f5cf839e7e72824563\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0a88a88746d564f5cf839e7e72824563\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\77894c80649c2807f39b3a256533adae\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\77894c80649c2807f39b3a256533adae\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\aaa84d6922f2bf1f18a774dd8d20ffc2\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\aaa84d6922f2bf1f18a774dd8d20ffc2\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b198d056d8f3cc11ace66a47d76159b7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b198d056d8f3cc11ace66a47d76159b7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\23ce858cb449e64d4351a4abf43b09d2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\23ce858cb449e64d4351a4abf43b09d2\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1e345c8a973a7814db4e6feeb4e97d5c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1e345c8a973a7814db4e6feeb4e97d5c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8e4480503828c44c14b792d0d445cc03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8e4480503828c44c14b792d0d445cc03\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a632aa9d550a852bff0710b79f041a1e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a632aa9d550a852bff0710b79f041a1e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\dbd35e0c8c2e58dcee541256babdebdf\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\dbd35e0c8c2e58dcee541256babdebdf\transformed\lifecycle-livedata-core-ktx-2.9.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\37d056e7128335a1a3053c6f28f41af3\transformed\lifecycle-livedata-core-2.9.4\AndroidManifest.xml:20:5-44
@@ -221,6 +243,12 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\tiag
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\081658e96b0d6014f443194612e3c464\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d23e16226c5d6dd85341e97a87fec057\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d23e16226c5d6dd85341e97a87fec057\transformed\lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\6b4c7c19056e8aefd9004badeb5476b4\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\6b4c7c19056e8aefd9004badeb5476b4\transformed\lifecycle-viewmodel-savedstate-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-android:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1fbac66d5dabb496e135dbd36df9f4e5\transformed\savedstate-release\AndroidManifest.xml:20:5-44
@@ -229,20 +257,20 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] C:\Users\tiago\.gradle\ca
 MERGED from [androidx.savedstate:savedstate-ktx:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\208c71a32422aeb3478ad84c2a9a29d2\transformed\savedstate-ktx-1.3.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d92fad97997fc6a45e735e9d35df7c91\transformed\savedstate-compose\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate-compose-android:1.3.2] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d92fad97997fc6a45e735e9d35df7c91\transformed\savedstate-compose\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4b51e49130df7d6096caca4ef656ae4c\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.16.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c4bb2196b2a92b7c1d9e29bb4f034da6\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a31c37e624a9da4cce927c1b5f4b8fa6\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d055a89019760829a7ce1f43738aab96\transformed\lifecycle-viewmodel-ktx-2.9.4\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\7921c09f8401cc7718ea2f538e7a8e90\transformed\runtime\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\7921c09f8401cc7718ea2f538e7a8e90\transformed\runtime\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\55a2abfc7327be942b22161cb86e7709\transformed\runtime-saveable\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\9b5cf2d6bfae6dd2db77da3e8a1b841c\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c767b07bec908f830408d51eb99f19a1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\c767b07bec908f830408d51eb99f19a1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b18a1bdbf95995fa172659859ab0faaf\transformed\ui\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-google-fonts:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f169b5f223f18d85a7599061c1080835\transformed\ui-text-google-fonts-1.10.4\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\93d50bed6084dad94d27c60f7f9a92db\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\93d50bed6084dad94d27c60f7f9a92db\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\8b77d2c2043d5a0e3ebe101fd19ffaa2\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -251,6 +279,8 @@ MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\tiago\.gradle\caches\9.
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\beb4fc0bc2e7fa15a03c04987fd03652\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a8c786a686dec41110afdfc5778ade59\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a8c786a686dec41110afdfc5778ade59\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b2f1d6e8bedaf745aca9503181cbe99d\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b2f1d6e8bedaf745aca9503181cbe99d\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0ba7d5b23e3519dd79696f5fa60f60e1\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\tiago\.gradle\caches\9.4.1\transforms\0ba7d5b23e3519dd79696f5fa60f60e1\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\1637fc9ab877d23ad92f594ee23b7872\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
@@ -275,14 +305,6 @@ ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradl
 		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:25:13-36
 	android:name
 		ADDED from [androidx.compose.ui:ui-tooling-android:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\4e13cbff0f3ad3cb75a3055432d13243\transformed\ui-tooling\AndroidManifest.xml:24:13-71
-activity#androidx.activity.ComponentActivity
-ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:23:9-26:79
-	android:exported
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:25:13-36
-	android:theme
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:26:13-76
-	android:name
-		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:24:13-63
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\d91a166dcca83722b980b0661de50ae2\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:24:9-32:20
@@ -343,6 +365,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.9.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\b51fbed29b29dfff135a89f5f2b52a16\transformed\lifecycle-process-2.9.4\AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.10.4] C:\Users\tiago\.gradle\caches\9.4.1\transforms\f814dc163f62deb334f9441c2147709f\transformed\ui-test-manifest-1.10.4\AndroidManifest.xml:24:13-63
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tiago\.gradle\caches\9.4.1\transforms\a8c786a686dec41110afdfc5778ade59\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
 	android:value

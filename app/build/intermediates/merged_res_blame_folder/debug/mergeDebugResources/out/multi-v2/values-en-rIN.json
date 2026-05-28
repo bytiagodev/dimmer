@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.dimmer.app-mergeDebugResources-38:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.dimmer.app-mergeDebugResources-41:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\tiago\\.gradle\\caches\\9.4.1\\transforms\\c4bb2196b2a92b7c1d9e29bb4f034da6\\transformed\\core-1.16.0\\res\\values-en-rIN\\values-en-rIN.xml",
