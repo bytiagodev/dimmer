@@ -6,23 +6,23 @@ import retrofit2.http.Query
 
 interface DimmerApi {
 
-    @GET("movies/popular")
+    @GET("movie/popular")
     suspend fun getPopularMovies(
         @Query("page") page: Int = 1
     ): MovieListResponse
 
-    @GET("movies/{id}")
+    @GET("movie/{id}")
     suspend fun getMovieDetails(
         @Path("id") id: Int
     ): MovieDetail
 
-    @GET("movies/search")
+    @GET("search/movie")
     suspend fun searchMovies(
         @Query("query") query: String,
         @Query("page") page: Int = 1
     ): MovieListResponse
 
-    @GET("movies/{id}/similar")
+    @GET("movie/{id}/similar")
     suspend fun getSimilarMovies(
         @Path("id") id: Int
     ): MovieListResponse
