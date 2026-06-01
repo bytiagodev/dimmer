@@ -31,8 +31,6 @@ import com.dimmer.app.ui.components.FilmCard
 import com.dimmer.app.ui.components.ShimmerFilmCard
 import com.dimmer.app.ui.theme.NavyBlack
 import com.dimmer.app.ui.theme.SteelBlue
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Search
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -1,8 +1,8 @@
 package com.dimmer.app.ui.detail
 
-import android.graphics.Bitmap
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -40,7 +41,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
@@ -51,6 +51,7 @@ import coil.compose.AsyncImage
 import coil.imageLoader
 import coil.request.ImageRequest
 import coil.request.SuccessResult
+import com.dimmer.app.data.api.Movie
 import com.dimmer.app.data.api.MovieDetail
 import com.dimmer.app.ui.theme.NavyBlack
 import com.dimmer.app.ui.theme.RatingGold
@@ -75,8 +76,7 @@ fun rememberPaletteColor(imageUrl: String?): Color {
                 val bitmap = (result.drawable as? android.graphics.drawable.BitmapDrawable)?.bitmap
                 bitmap?.let {
                     Palette.from(it).generate { palette ->
-                        val swatch = palette?.vibrantSwatch
-                            ?: palette?.dominantSwatch
+                        val swatch = palette?.vibrantSwatch ?: palette?.dominantSwatch
                         swatch?.let { s ->
                             color = Color(s.rgb)
                         }
@@ -95,9 +95,11 @@ fun rememberPaletteColor(imageUrl: String?): Color {
 fun DetailScreen(
     movieId: Int,
     onBack: () -> Unit,
+    onMovieClick: (Int) -> Unit = {},
     viewModel: DetailViewModel = viewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    val similarMovies by viewModel.similarMovies.collectAsState()
 
     LaunchedEffect(movieId) {
         viewModel.fetchMovieDetails(movieId)
@@ -133,7 +135,11 @@ fun DetailScreen(
             }
 
             is DetailUiState.Success -> {
-                DetailContent(movie = state.movie)
+                DetailContent(
+                    movie = state.movie,
+                    similarMovies = similarMovies,
+                    onMovieClick = onMovieClick
+                )
             }
         }
 
@@ -153,7 +159,11 @@ fun DetailScreen(
 }
 
 @Composable
-fun DetailContent(movie: MovieDetail) {
+fun DetailContent(
+    movie: MovieDetail,
+    similarMovies: List<Movie>,
+    onMovieClick: (Int) -> Unit
+) {
     val posterUrl = movie.posterPath?.let { TMDB_IMAGE_BASE + it }
     val glowColor = rememberPaletteColor(posterUrl)
 
@@ -327,6 +337,45 @@ fun DetailContent(movie: MovieDetail) {
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onBackground
                 )
+            }
+
+            if (similarMovies.isNotEmpty()) {
+                Spacer(modifier = Modifier.height(24.dp))
+                Text(
+                    text = "MORE LIKE THIS",
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                LazyRow(
+                    horizontalArrangement = Arrangement.spacedBy(10.dp),
+                    contentPadding = PaddingValues(0.dp)
+                ) {
+                    items(similarMovies) { movie ->
+                        Column(
+                            modifier = Modifier
+                                .width(120.dp)
+                                .clickable { onMovieClick(movie.id) }
+                        ) {
+                            AsyncImage(
+                                model = movie.posterPath?.let { TMDB_IMAGE_BASE + it },
+                                contentDescription = movie.title,
+                                contentScale = ContentScale.Crop,
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .aspectRatio(2f / 3f)
+                                    .clip(RoundedCornerShape(8.dp))
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            Text(
+                                text = movie.title,
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 2
+                            )
+                        }
+                    }
+                }
             }
 
             Spacer(modifier = Modifier.height(32.dp))

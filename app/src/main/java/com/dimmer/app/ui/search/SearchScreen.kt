@@ -43,9 +43,6 @@ import com.dimmer.app.ui.components.ShimmerFilmCard
 import com.dimmer.app.ui.theme.NavyBlack
 import com.dimmer.app.ui.theme.SteelBlue
 import com.dimmer.app.ui.theme.SurfaceDark
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Clear
 
 @Composable
 fun SearchScreen(

@@ -38,7 +38,8 @@ fun NavGraph(
             )
         }
 
-        composable(Screen.Detail.route,
+        composable(
+            route = Screen.Detail.route,
             arguments = listOf(
                 navArgument("movieId") { type = NavType.IntType }
             )
@@ -46,7 +47,10 @@ fun NavGraph(
             val movieId = backStackEntry.arguments?.getInt("movieId") ?: return@composable
             DetailScreen(
                 movieId = movieId,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onMovieClick = { id ->
+                    navController.navigate(Screen.Detail.createRoute(id))
+                }
             )
         }
 
