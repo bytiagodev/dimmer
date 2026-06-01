@@ -1,5 +1,6 @@
 package com.dimmer.app.ui.detail
 
+import android.graphics.Bitmap
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -31,22 +32,64 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.palette.graphics.Palette
 import coil.compose.AsyncImage
+import coil.imageLoader
+import coil.request.ImageRequest
+import coil.request.SuccessResult
 import com.dimmer.app.data.api.MovieDetail
 import com.dimmer.app.ui.theme.NavyBlack
 import com.dimmer.app.ui.theme.RatingGold
 import com.dimmer.app.ui.theme.SteelBlue
 
 private const val TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
+
+@Composable
+fun rememberPaletteColor(imageUrl: String?): Color {
+    val context = LocalContext.current
+    var color by remember(imageUrl) { mutableStateOf(SteelBlue) }
+
+    LaunchedEffect(imageUrl) {
+        if (imageUrl == null) return@LaunchedEffect
+        try {
+            val request = ImageRequest.Builder(context)
+                .data(imageUrl)
+                .allowHardware(false)
+                .build()
+            val result = context.imageLoader.execute(request)
+            if (result is SuccessResult) {
+                val bitmap = (result.drawable as? android.graphics.drawable.BitmapDrawable)?.bitmap
+                bitmap?.let {
+                    Palette.from(it).generate { palette ->
+                        val swatch = palette?.vibrantSwatch
+                            ?: palette?.dominantSwatch
+                        swatch?.let { s ->
+                            color = Color(s.rgb)
+                        }
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            color = SteelBlue
+        }
+    }
+
+    return color
+}
 
 @Composable
 fun DetailScreen(
@@ -94,7 +137,6 @@ fun DetailScreen(
             }
         }
 
-        // Back button overlaid on top
         IconButton(
             onClick = onBack,
             modifier = Modifier
@@ -112,25 +154,39 @@ fun DetailScreen(
 
 @Composable
 fun DetailContent(movie: MovieDetail) {
+    val posterUrl = movie.posterPath?.let { TMDB_IMAGE_BASE + it }
+    val glowColor = rememberPaletteColor(posterUrl)
+
     Column(
         modifier = Modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
     ) {
-        // Poster with gradient fade
         Box(
             modifier = Modifier
                 .fillMaxWidth()
                 .aspectRatio(2f / 3f)
         ) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(
+                        Brush.radialGradient(
+                            colors = listOf(
+                                glowColor.copy(alpha = 0.4f),
+                                NavyBlack
+                            )
+                        )
+                    )
+            )
+
             AsyncImage(
-                model = movie.posterPath?.let { TMDB_IMAGE_BASE + it },
+                model = posterUrl,
                 contentDescription = movie.title,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize()
             )
 
-            // Fade poster into background at bottom
             Box(
                 modifier = Modifier
                     .fillMaxSize()
@@ -147,14 +203,11 @@ fun DetailContent(movie: MovieDetail) {
             )
         }
 
-        // Content
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 20.dp)
         ) {
-
-            // Title
             Text(
                 text = movie.title,
                 style = MaterialTheme.typography.displayMedium,
@@ -164,7 +217,6 @@ fun DetailContent(movie: MovieDetail) {
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            // Metadata row: year · runtime · rating
             val year = movie.releaseDate?.take(4) ?: ""
             val runtime = movie.runtime?.let { "${it}m" } ?: ""
             Row(
@@ -204,7 +256,6 @@ fun DetailContent(movie: MovieDetail) {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // Genre chips
             if (movie.genres.isNotEmpty()) {
                 LazyRow(
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -228,14 +279,12 @@ fun DetailContent(movie: MovieDetail) {
                 Spacer(modifier = Modifier.height(16.dp))
             }
 
-            // Streaming availability
             val providers = movie.watchProviders?.flatrate
             if (!providers.isNullOrEmpty()) {
                 Text(
                     text = "WHERE TO WATCH",
                     style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    letterSpacing = androidx.compose.ui.unit.TextUnit.Unspecified
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 LazyRow(
@@ -266,7 +315,6 @@ fun DetailContent(movie: MovieDetail) {
                 Spacer(modifier = Modifier.height(16.dp))
             }
 
-            // Synopsis
             if (!movie.overview.isNullOrEmpty()) {
                 Text(
                     text = "SYNOPSIS",
@@ -277,8 +325,7 @@ fun DetailContent(movie: MovieDetail) {
                 Text(
                     text = movie.overview,
                     style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onBackground,
-                    lineHeight = MaterialTheme.typography.bodyLarge.lineHeight
+                    color = MaterialTheme.colorScheme.onBackground
                 )
             }
 
