@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.dimmer.app-mergeDebugResources-41:/values-v30/values-v30.xml",
+            "outputFile": "com.dimmer.app-mergeDebugResources-48:/values-v30/values-v30.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tiago\\.gradle\\caches\\9.4.1\\transforms\\a4b79b4ea8dfc9fc2348d0a34bb8e6e8\\transformed\\material3\\res\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\tiago\\.gradle\\caches\\9.4.1\\transforms\\e924923bc8f95b5b6375d2b32bd11be1\\transformed\\material3\\res\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

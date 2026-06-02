@@ -53,6 +53,7 @@ import coil.request.ImageRequest
 import coil.request.SuccessResult
 import com.dimmer.app.data.api.Movie
 import com.dimmer.app.data.api.MovieDetail
+import com.dimmer.app.data.api.WatchProviderResult
 import com.dimmer.app.ui.theme.NavyBlack
 import com.dimmer.app.ui.theme.RatingGold
 import com.dimmer.app.ui.theme.SteelBlue
@@ -100,6 +101,7 @@ fun DetailScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val similarMovies by viewModel.similarMovies.collectAsState()
+    val watchProviders by viewModel.watchProviders.collectAsState()
 
     LaunchedEffect(movieId) {
         viewModel.fetchMovieDetails(movieId)
@@ -138,6 +140,7 @@ fun DetailScreen(
                 DetailContent(
                     movie = state.movie,
                     similarMovies = similarMovies,
+                    watchProviders = watchProviders,
                     onMovieClick = onMovieClick
                 )
             }
@@ -162,6 +165,7 @@ fun DetailScreen(
 fun DetailContent(
     movie: MovieDetail,
     similarMovies: List<Movie>,
+    watchProviders: WatchProviderResult?,
     onMovieClick: (Int) -> Unit
 ) {
     val posterUrl = movie.posterPath?.let { TMDB_IMAGE_BASE + it }
@@ -170,6 +174,14 @@ fun DetailContent(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(
+                Brush.verticalGradient(
+                    colors = listOf(
+                        glowColor.copy(alpha = 0.15f),
+                        NavyBlack
+                    )
+                )
+            )
             .verticalScroll(rememberScrollState())
     ) {
         Box(
@@ -177,19 +189,6 @@ fun DetailContent(
                 .fillMaxWidth()
                 .aspectRatio(2f / 3f)
         ) {
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .background(
-                        Brush.radialGradient(
-                            colors = listOf(
-                                glowColor.copy(alpha = 0.4f),
-                                NavyBlack
-                            )
-                        )
-                    )
-            )
-
             AsyncImage(
                 model = posterUrl,
                 contentDescription = movie.title,
@@ -289,7 +288,7 @@ fun DetailContent(
                 Spacer(modifier = Modifier.height(16.dp))
             }
 
-            val providers = movie.watchProviders?.flatrate
+            val providers = watchProviders?.flatrate
             if (!providers.isNullOrEmpty()) {
                 Text(
                     text = "WHERE TO WATCH",

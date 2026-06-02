@@ -16,6 +16,12 @@ interface DimmerApi {
         @Path("id") id: Int
     ): MovieDetail
 
+    @GET("movie/{id}/watch/providers")
+    suspend fun getWatchProviders(
+        @Path("id") id: Int,
+        @Query("watch_region") region: String = "PT"
+    ): WatchProvidersResponse
+
     @GET("search/movie")
     suspend fun searchMovies(
         @Query("query") query: String,

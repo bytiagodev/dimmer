@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.dimmer.app.data.api.Movie
 import com.dimmer.app.data.api.MovieDetail
 import com.dimmer.app.data.api.RetrofitClient
+import com.dimmer.app.data.api.WatchProviderResult
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -23,6 +24,9 @@ class DetailViewModel : ViewModel() {
     private val _similarMovies = MutableStateFlow<List<Movie>>(emptyList())
     val similarMovies: StateFlow<List<Movie>> = _similarMovies
 
+    private val _watchProviders = MutableStateFlow<WatchProviderResult?>(null)
+    val watchProviders: StateFlow<WatchProviderResult?> = _watchProviders
+
     fun fetchMovieDetails(movieId: Int) {
         viewModelScope.launch {
             _uiState.value = DetailUiState.Loading
@@ -39,6 +43,14 @@ class DetailViewModel : ViewModel() {
                 _similarMovies.value = response.results
             } catch (e: Exception) {
                 _similarMovies.value = emptyList()
+            }
+        }
+        viewModelScope.launch {
+            try {
+                val response = RetrofitClient.api.getWatchProviders(movieId)
+                _watchProviders.value = response.results?.pt
+            } catch (e: Exception) {
+                _watchProviders.value = null
             }
         }
     }

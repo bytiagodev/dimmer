@@ -6,12 +6,11 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
-import com.dimmer.app.BuildConfig
 
 object RetrofitClient {
 
     private const val BASE_URL = "https://api.themoviedb.org/3/"
-    const val API_KEY = BuildConfig.TMDB_API_KEY
+    const val API_KEY = "13a820a6c830e4a4c7b7bd3021417ce0"
 
     private val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC

@@ -30,14 +30,23 @@ data class MovieDetail(
     @Json(name = "release_date") val releaseDate: String?,
     @Json(name = "runtime") val runtime: Int?,
     @Json(name = "genres") val genres: List<Genre>,
-    @Json(name = "overview") val overview: String?,
-    @Json(name = "watch_providers") val watchProviders: WatchProviderResult?
+    @Json(name = "overview") val overview: String?
 )
 
 @JsonClass(generateAdapter = true)
 data class Genre(
     @Json(name = "id") val id: Int,
     @Json(name = "name") val name: String
+)
+
+@JsonClass(generateAdapter = true)
+data class WatchProvidersResponse(
+    @Json(name = "results") val results: WatchProviderRegion?
+)
+
+@JsonClass(generateAdapter = true)
+data class WatchProviderRegion(
+    @Json(name = "PT") val pt: WatchProviderResult?
 )
 
 @JsonClass(generateAdapter = true)
