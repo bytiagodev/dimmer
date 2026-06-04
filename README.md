@@ -18,7 +18,7 @@ Browse what's popular. Search for something specific. Tap a film and see exactly
 🔍 &nbsp;Search by title  
 📺 &nbsp;See where to watch in Portugal (Netflix, Disney+, Prime, and more)  
 🎨 &nbsp;Dynamic colour extracted from every poster  
-⭐ &nbsp;Rating, runtime, genres, synopsis, and similar films
+⭐ &nbsp;Rating, runtime, genres, synopsis, and similar films  
 
 ---
 
@@ -56,12 +56,8 @@ You'll need a free TMDB API key from [themoviedb.org](https://www.themoviedb.org
    git clone https://github.com/bytiagodev/dimmer.git
    ```
 2. Open in Android Studio and wait for Gradle sync
-3. Add your TMDB key to `local.properties`:
-   ```
-   tmdb.api.key=your_key_here
-   ```
-4. In `RetrofitClient.kt`, make sure `API_KEY = BuildConfig.TMDB_API_KEY`
-5. Run on an emulator or physical device
+3. Open `RetrofitClient.kt` and replace `your_tmdb_api_key_here` with your actual TMDB key
+4. Run on an emulator or physical device
 
 ---
 
@@ -70,8 +66,7 @@ You'll need a free TMDB API key from [themoviedb.org](https://www.themoviedb.org
 ```
 app/src/main/java/com/dimmer/app/
 ├── data/
-│   ├── api/            Retrofit interface, API models
-│   └── repository/     Repository layer
+│   └── api/            Retrofit interface, API models
 ├── ui/
 │   ├── home/           Home screen + ViewModel
 │   ├── detail/         Detail screen + ViewModel
