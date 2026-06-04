@@ -10,7 +10,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 object RetrofitClient {
 
     private const val BASE_URL = "https://api.themoviedb.org/3/"
-    const val API_KEY = "13a820a6c830e4a4c7b7bd3021417ce0"
+    const val API_KEY = "your_tmdb_api_key_here"
 
     private val logging = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC
