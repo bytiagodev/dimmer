@@ -4,7 +4,7 @@
 
 <br>
 
-I originally started building Dimmer as a final project for an Android module in a course I was taking. I put off writing a README at the time because I didn't want it to just look like a standard school assignment. 
+I originally started building Dimmer as a final project for an Android module in a course I was taking. It had a README back then, but I left out the part about it being for a class because I didn't want it to look like just another school assignment.
 
 But the app actually solved a real annoyance for me. Finding out where a movie is streaming in Portugal can be surprisingly hard. Since it is a smaller market, searching online doesn't always give you clear answers. I just wanted a quick way to check if a film was on Netflix or Prime without digging through random forums or guessing. That is what Dimmer does.
 
