@@ -4,21 +4,16 @@
 
 <br>
 
-Sometimes you just want to get home, drop your bag, fall onto the couch, and find something to watch. No endless scrolling through five different apps. No twenty minutes deciding before you give up and rewatch something you've already seen. Just a film, tonight, on whatever you already pay for.
+I originally started building Dimmer as a final project for an Android module in a course I was taking. I put off writing a README at the time because I didn't want it to just look like a standard school assignment. 
 
-That's what Dimmer is.
+But the app actually solved a real annoyance for me. Finding out where a movie is streaming in Portugal can be surprisingly hard. Since it is a smaller market, searching online doesn't always give you clear answers. I just wanted a quick way to check if a film was on Netflix or Prime without digging through random forums or guessing. That is what Dimmer does.
 
 ---
 
 ## What it does
 
-Browse what's popular. Search for something specific. Tap a film and see exactly where it's streaming in Portugal right now. That's the whole thing.
-
-🎬 &nbsp;Browse popular and trending films  
-🔍 &nbsp;Search by title  
-📺 &nbsp;See where to watch in Portugal (Netflix, Disney+, Prime, and more)  
-🎨 &nbsp;Dynamic colour extracted from every poster  
-⭐ &nbsp;Rating, runtime, genres, synopsis, and similar films  
+The home screen shows a list of popular and trending films. When you tap one, it opens a detail screen with the rating, runtime, genres, and a short synopsis. The most important part is the watch providers section, which shows which services have the film available in Portugal. There is also a search screen to find specific titles.
+To make the UI feel a bit more tailored to each movie, I used the AndroidX Palette library to extract the dominant colors from the movie poster and apply them to the detail screen background. 
 
 ---
 
@@ -34,16 +29,7 @@ Browse what's popular. Search for something specific. Tap a film and see exactly
 
 ## Tech stack
 
-| What | Why |
-|---|---|
-| **Kotlin** | Official Android language, concise and null-safe |
-| **Jetpack Compose** | Modern declarative UI, no XML |
-| **Material 3** | Dark theme, clean design system |
-| **Retrofit + Moshi** | HTTP and JSON |
-| **Coil** | Image loading built for Compose |
-| **AndroidX Palette** | Colour extraction from poster images |
-| **Compose Navigation** | Single-activity navigation |
-| **TMDB API** | Film data, posters, and watch provider info |
+The app is written in Kotlin and uses Jetpack Compose for the UI, which let me build the screens without writing any XML. I used Material 3 for the dark theme and design system. For networking, Retrofit handles the HTTP requests and Moshi parses the JSON responses from the TMDB API. Coil handles the image loading since it is built specifically for Compose. Navigation between the home, search, and detail screens is handled by Compose Navigation.
 
 ---
 
